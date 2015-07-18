@@ -4,7 +4,7 @@
   "authors": [
     "Phil <birkal@outlook.com>"
   ],
-  "description": "A react component to display Yu-Gi-Oh! cards.",
+  "description": "A React component to display Yu-Gi-Oh! cards.",
   "main": "yugioh.js",
   "moduleType": [
     "amd",

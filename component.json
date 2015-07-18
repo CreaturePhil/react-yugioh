@@ -1,7 +1,7 @@
 {
   "name": "react-yugioh",
   "repo": "creaturephil/react-yugioh",
-  "description": "A react component to display Yu-Gi-Oh! Cards",
+  "description": "A React component to display Yu-Gi-Oh! Cards",
   "version": "1.0.0",
   "keywords": [
     "yugioh",

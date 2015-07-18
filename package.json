@@ -1,7 +1,7 @@
 {
   "name": "react-yugioh",
   "version": "1.0.0",
-  "description": "A react component to display Yu-Gi-Oh! Cards.",
+  "description": "A React component to display Yu-Gi-Oh! Cards.",
   "main": "yugioh.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
