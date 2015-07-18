@@ -1,0 +1,25 @@
+{
+  "name": "react-yugioh",
+  "version": "1.0.0",
+  "description": "A react component to display Yu-Gi-Oh! Cards.",
+  "main": "yugioh.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/creaturephil/react-yugioh.git"
+  },
+  "keywords": [
+    "yugioh",
+    "Yu-Gi-Oh!",
+    "react",
+    "component"
+  ],
+  "author": "Philip la <birkal@outlook.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/creaturephil/react-yugioh/issues"
+  },
+  "homepage": "https://github.com/creaturephil/react-yugioh#readme"
+}

@@ -1,0 +1,17 @@
+{
+  "name": "react-yugioh",
+  "repo": "creaturephil/react-yugioh",
+  "description": "A react component to display Yu-Gi-Oh! Cards",
+  "version": "1.0.0",
+  "keywords": [
+    "yugioh",
+    "react"
+  ],
+  "dependencies": {},
+  "development": {},
+  "license": "MIT",
+  "main": "yugioh.js",
+  "scripts": [
+    "yugioh.js"
+  ]
+}

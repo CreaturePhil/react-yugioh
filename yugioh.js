@@ -1,42 +1,30 @@
-var Yugioh = React.createClass({
-  createLink: function() {
-    var card = this.props.card.split(' ').map(function(word) {
-      return word.charAt(0).toUpperCase() + word.slice(1).toLowerCase();
-    }).join('_');
-    return 'http://static.api3.studiobebop.net/ygo_data/card_images/' + card + '.jpg';
-  },
-  render: function() {
-    return (
-      <div>
-        <img src={this.createLink()} alt={this.props.card} />
-      </div>
-    );
-  }
-});
-
-var App = React.createClass({
-  getInitialState: function() {
-    return {
-      card: 'dark magician'
-    };
-  },
-  handleChange: function() {
-    this.setState({
-      card: this.refs.card.getDOMNode().value
+(function (root, factory) {
+  if (typeof define === 'function' && define.amd) {
+    // AMD
+    define(['react'], function (React) {
+      return (root.Yugioh = factory(React));
     });
-  },
-  render: function() {
-    return (
-      <div>
-        <input type="text"
-              ref="card"
-              value={this.state.card}
-              onChange={this.handleChange} />
-        <br />
-        <Yugioh card={this.state.card} />
-      </div>
-    );
+  } else if (typeof exports === 'object') {
+    // Node, sorta CommonJS
+    module.exports = factory(require('react-tools').React);
+  } else {
+    // Browser global
+    root.Yugioh = factory(root.React);
   }
-});
-
-React.render(<App />, document.getElementById('yugioh'));
+}(this, function (React) {
+  return React.createClass({displayName: "Yugioh",
+    createLink: function() {
+      var card = this.props.card.trim().split(' ').map(function(word) {
+        return word.charAt(0).toUpperCase() + word.slice(1).toLowerCase();
+      }).join('_');
+      return 'http://static.api3.studiobebop.net/ygo_data/card_images/' + card + '.jpg';
+    },
+    render: function() {
+      return React.DOM.img({
+        alt: this.props.card,
+        className: 'yugioh',
+        src: this.createLink()
+      });
+    }
+  });
+}));
