@@ -17,7 +17,7 @@
     "react"
   ],
   "license": "MIT",
-  "homepage": "https://github.com/creaturephil/react-yugioh",
+  "homepage": "https://github.com/normandy14/yugiohCardPreview.git",
   "ignore": [
     "**/.*",
     "node_modules",

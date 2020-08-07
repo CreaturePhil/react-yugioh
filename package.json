@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/creaturephil/react-yugioh.git"
+    "url": "https://github.com/normandy14/yugiohCardPreview.git"
   },
   "keywords": [
     "yugioh",
@@ -16,10 +16,10 @@
     "react",
     "component"
   ],
-  "author": "Philip la <birkal@outlook.com>",
+  "author": "normandy14",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/creaturephil/react-yugioh/issues"
+    "url": "https://github.com/normandy14/yugiohCardPreview.git/issues"
   },
-  "homepage": "https://github.com/creaturephil/react-yugioh#readme"
+  "homepage": "https://github.com/normandy14/yugiohCardPreview.git#readme"
 }
