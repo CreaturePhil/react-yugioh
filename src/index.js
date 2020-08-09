@@ -5,18 +5,24 @@ import Yugioh from './yugioh.js';
 class App extends React.Component {
   constructor(props) {
     super(props);
-    this.state = {card: 'dark magician'};
+    this.state = { card: 'dark magician' };
   }
+  
+  handleChange(e) {
+    this.setState({ card: e.target.value });
+  }
+  
   render() {
     return (
       <div>
         <input
-          type="text"
-          ref="card"
-          value={this.state.card}
+          type = "text"
+          ref = "card"
+          onChange={ this.handleChange.bind(this) }
+          value = { this.state.card }
         />
         <br />
-        <Yugioh card={this.state.card} />
+        <Yugioh card={ this.state.card } />
       </div>
     );
   };
