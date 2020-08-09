@@ -1,33 +1,35 @@
-# react-yugioh
+# YugiohCard
 
-A React component for displaying Yu-Gi-Oh! Cards.
+YugiohCard, a react component for displaying Yu-Gi-Oh! Cards.
+Dynamically type in the name for any Yu-Gi-Oh! card to view the corresponding card.
 
-## [Demo](http://creaturephil.github.io/react-yugioh/)
+## Getting Started
 
-## Installation
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
-Download the library [manually](https://github.com/creaturephil/react-yugioh/releases) or with a
-package manager.
 
-#### [npm](https://npmjs.org/package/react-yugioh)
+### Installing
 
+A step by step series of examples that tell you how to get a development env running
+
+1. Install prerequisites using npm
 ```
-npm install --save react-yugioh
-```
-
-#### [Bower](http://bower.io)
-
-```
-bower install --save react-yugioh
+npm install
 ```
 
-#### [Component](https://github.com/component/component)
+2. Build using npm
 
 ```
-component install creaturephil/react-yugioh@gh-pages
+npm build
 ```
 
-## Usage
+3. Run using npm
+
+```
+npm run
+```
+
+### Usage
 
 ```javascript
 /** @jsx React.DOM */
@@ -37,6 +39,24 @@ React.renderComponent(
 );
 ```
 
+## Versioning
+
+We use [Git](https://gist.github.com/derhuerst/1b15ff4652a867391f03) for versioning.
+
+## Authors
+
+* **Normandy14** - *Initial work* - [Github Account](https://github.com/Normandy14)
+
 ## License
 
-[MIT](LICENSE)
+This project is licensed under the GNU General Public License - see the [LICENSE.md](LICENSE.md) file for details
+
+<!--
+
+## Acknowledgments
+
+* Hat tip to anyone whose code was used
+* Inspiration
+* etc
+
+-->
