@@ -1,6 +1,6 @@
 # YugiohCard
 
-[Kuriboh](https://github.com/normandy14/yugiohCard/blob/master/Kuriboh.jpg?raw=true)
+![Kuriboh](https://github.com/normandy14/yugiohCard/blob/master/Kuriboh.jpg?raw=true)
 
 YugiohCard, a react component for displaying Yu-Gi-Oh! Cards.
 Dynamically type in the name for any Yu-Gi-Oh! card to view the corresponding card.
