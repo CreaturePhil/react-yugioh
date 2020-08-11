@@ -48,11 +48,13 @@ We use [Git](https://gist.github.com/derhuerst/1b15ff4652a867391f03) for version
 
 ## Authors
 
-* **Normandy14** - *Initial work* - [Github Account](https://github.com/Normandy14)
+* **CreaturePhil** - *Initial work* - [Github Account](https://github.com/CreaturePhil)
+* **Normandy14** - *Contributor/maintainer* - [Github Account](https://github.com/Normandy14)
+
 
 ## License
 
-This project is licensed under the GNU General Public License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/CreaturePhil/react-yugioh/blob/gh-pages/LICENSE) file for details
 
 <!--
 
