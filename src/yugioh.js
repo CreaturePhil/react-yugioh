@@ -13,8 +13,9 @@ class Yugioh extends React.Component {
   render() {
     return (
       <img
-        alt= { this.props.card }
+        alt= ""
         className = 'yugioh'
+        onError = "this.style.display='none'"
         src = { this.createLink() }
       />
     );
