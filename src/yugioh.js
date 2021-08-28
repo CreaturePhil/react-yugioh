@@ -1,7 +1,9 @@
 import React from 'react';
 
 class Yugioh extends React.Component {
-  
+  constructor(props) {
+    super(props);
+  }
   
   createLink () {
     var card =  this.props.card.trim().split(' ').map(function(word) {
